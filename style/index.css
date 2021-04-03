@@ -1,6 +1,32 @@
 body {
-    background-repeat: no-repeat;
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+  background: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  margin: 0 !important;
+  background-size: 100% cover!important;
+  overflow: hidden;
+  display: block;
+}
+
+.filler-post {
+  position: fixed;
+  left: 40%;
+  top: 50%;
+}
+
+.pstbtn {
+  height: 50px;
+  width: 160px;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 100%;
+  float: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #dab641;
+  margin: 10px 10px 0px 0px;
+  color: black;
 }

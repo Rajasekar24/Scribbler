@@ -34,7 +34,7 @@ function onEdit() {
         }
 }
 
-window.onload = function() {
+window.onload = function () {
         if (queryString.length == 0) {
                 if (window.location.search.split('?').length > 1) {
                         const params = window.location.search.split('?')[1].split('&');
@@ -70,11 +70,9 @@ function countLikes() {
 }
 
 const comments = [];
-
 function addingComment(item, index) {
         const temp = document.getElementById('comments').innerHTML;
         document.getElementById('comments').innerHTML = `<div class="comment">${item}</div>`;
-        // + `</br>`;
         document.getElementById('comments').innerHTML += `${temp}</br>`;
         comments.pop();
 }

@@ -6,10 +6,12 @@
   text-decoration: none;
   margin: 10px 10px 0px 10px;
 }
+
 .smaller-heading {
   font-size: 20px;
   margin-left: 10px;
 }
+
 .signinbutton {
   width: 120px;
   padding: 10px;
@@ -23,7 +25,7 @@
   margin: 10px 10px 0px 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.modal-signin-container{
-  margin-top: 20px;
 
+.modal-signin-container {
+  margin-top: 20px;
 }

@@ -1,6 +1,6 @@
 function openPost(author, heading, content) {
     const locurl = `../html/post.html?heading=${encodeURIComponent(heading.innerText)}&author=${encodeURIComponent(
-            author.innerText
+        author.innerText
     )}&content=${encodeURIComponent(content.innerText)}`;
     window.location.href = locurl;
 }
